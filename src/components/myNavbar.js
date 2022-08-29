@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export const MyNavbar = () => {
   return (
@@ -23,12 +24,9 @@ export const MyNavbar = () => {
             >
               <Nav.Item>Servicios</Nav.Item>
             </Link>
-            <Link
-              to="/contact"
-              className="text-decoration-none text-white me-4"
-            >
+            <HashLink to="/home#contacto" className="text-decoration-none text-white me-4">
               <Nav.Item>Contáctanos</Nav.Item>
-            </Link>
+            </HashLink>
             <Link to="/faq" className="text-decoration-none text-white me-4">
               <Nav.Item>Preguntas</Nav.Item>
             </Link>

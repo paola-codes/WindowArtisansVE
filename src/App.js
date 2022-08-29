@@ -12,20 +12,20 @@ import { Privacy } from "./pages/privacy";
 
 function App() {
   return (
-    <Router>
-      <MyNavbar />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/faq" element={<Faq />} />
-        <Route path="/legal" element={<Legal />} />
-        <Route path="/privacy" element={<Privacy />} />
-      </Routes>
-      <Footer />
-    </Router>
+      <Router>
+        <MyNavbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/legal" element={<Legal />} />
+          <Route path="/privacy" element={<Privacy />} />
+        </Routes>
+        <Footer />
+      </Router>
   );
 }
 

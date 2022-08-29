@@ -2,11 +2,10 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div className="m-5 pb-4">
-      <div className='col-4 mx-auto text-center mb-5'>
-        <h2 className="mb-4">
+    <div className="m-5 pb-4" id="about">
+      <div className='col mx-auto text-center mb-5'>
+        <h2>
           Acerca de nosotros
-          <hr className="featurette-divider mt-3" />
         </h2>
       </div>
 
