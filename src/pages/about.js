@@ -1,4 +1,5 @@
 import React from "react";
+import Image3 from "../images/image3.png"
 
 export const About = () => {
   return (
@@ -29,6 +30,9 @@ export const About = () => {
             tecnología y tomando en consideración los requerimientos de cada
             empresa.
           </h4>
+          <div className="col-xl-6 col-sm-8 mx-auto mt-5">
+            <img src={Image3} className="img-fluid"></img>
+          </div>
         </div>
       </div>
     </div>
