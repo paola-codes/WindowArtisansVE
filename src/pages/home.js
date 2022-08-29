@@ -292,7 +292,7 @@ export const Home = () => {
 
                             <MDBCol
                                 id="contacto"
-                                className="text-center"
+                                className="text-center ms-xl-5"
                                 xs="9"
                                 sm="10"
                                 md="5"
